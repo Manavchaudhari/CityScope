@@ -1,0 +1,9 @@
+echo "venv/
+__pycache__/
+*.ipynb_checkpoints/
+data/
+exports/
+*.csv
+*.xlsx
+.DS_Store
+" > .gitignore
