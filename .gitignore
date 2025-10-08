@@ -1,8 +1,10 @@
 echo "venv/
 __pycache__/
 *.ipynb_checkpoints/
-data/
-exports/
+data/*
+!data/.gitkeep
+exports/*
+!exports/.gitkeep
 *.csv
 *.xlsx
 .DS_Store
