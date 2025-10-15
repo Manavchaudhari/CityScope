@@ -1,11 +1,21 @@
-echo "venv/
+# Virtual environment
+.venv/
+venv/
+
+# Python cache & checkpoints
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 *.ipynb_checkpoints/
+
+# Data & exports (keep folder, ignore contents)
 data/*
 !data/.gitkeep
 exports/*
 !exports/.gitkeep
+
+# Common file types to ignore
 *.csv
 *.xlsx
 .DS_Store
-" > .gitignore.venv/
