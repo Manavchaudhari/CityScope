@@ -8,4 +8,4 @@ exports/*
 *.csv
 *.xlsx
 .DS_Store
-" > .gitignore
+" > .gitignore.venv/
