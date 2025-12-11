@@ -12,8 +12,6 @@ __pycache__/
 # Data & exports (keep folder, ignore contents)
 data/*
 !data/.gitkeep
-exports/*
-!exports/.gitkeep
 
 # Common file types to ignore
 *.csv
